@@ -1,0 +1,20 @@
+package com.omkar;
+
+public class Practice {
+
+	
+	public static void main(String[] args) {
+		
+		()-> {
+		System.out.println("Print");
+		}
+		
+	}
+}
+
+
+@FunctionalInterface
+interface Test{
+	
+	public void test();
+}
