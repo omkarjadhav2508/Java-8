@@ -43,16 +43,12 @@ public class Practice {
 		//predicate -> true or false 
 		// has test()
 		
-		//to check if number is even and greater than 60
+		//to check if number is even
 		
 		Predicate<Integer> p= i->i%2==0;
-		Predicate<Integer> p1= i->i>60;
-		
-		boolean test2 = p.and(p1).negate().test(122);
-		
 		boolean test = p.test(125);
 		
-		System.out.println(test2);
+		System.out.println(test);
 		
 		
 

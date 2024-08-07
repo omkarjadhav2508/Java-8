@@ -48,7 +48,7 @@ public class Practice {
 		Predicate<Integer> p= i->i%2==0;
 		Predicate<Integer> p1= i->i>60;
 		
-		boolean test2 = p.and(p1).negate().test(122);
+		boolean test2 = p.and(p1).test(122);
 		
 		boolean test = p.test(125);
 		
